@@ -26,9 +26,6 @@ import pluginSelectList from "./templates/pluginSelectList.hbs";
 
 Handlebars.registerPartial("pluginSelectList", pluginSelectList);
 
-// TODO: see whether this is actually being used or if it can be removed
-window.zq = $;
-
 // Setup the dialog, exported
 var createPluginSetupWizard = function (appendTarget) {
   var $bs = enhanceJQueryWithBootstrap($);
